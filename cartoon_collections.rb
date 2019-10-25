@@ -13,8 +13,7 @@ end
 
 roll_call_dwarves(dwarves)
 
-
-def planeteer_calls = %w[earth wind fire water heart]
+ planeteer_calls = %w[earth wind fire water heart]
   # Your code here
 end
 
