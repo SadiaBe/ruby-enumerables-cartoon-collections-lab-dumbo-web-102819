@@ -28,7 +28,15 @@ long_planeteer_calls(planeteer_calls)
 
 
 snacks = %w[crackers gouda thyme]
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(snacks)
+  cheeses = %w[gouda cheddar camembert]
+
+  snacks.find do |maybe_cheese|
+    cheeses.include?(maybe_cheese)
+  end
+end
+
+find_the_cheese(snacks)
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
