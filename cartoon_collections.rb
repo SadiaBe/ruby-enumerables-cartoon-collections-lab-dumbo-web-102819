@@ -14,7 +14,7 @@ end
 roll_call_dwarves(dwarves)
 
 
-def summon_captain_planet# code an argument here
+def planeteer_calls = %w[earth wind fire water heart]
   # Your code here
 end
 
